@@ -5,18 +5,11 @@
 #        Alex Stuteley         #
 ################################
 
-#URL and deployment code below
-#https://astu221.shinyapps.io/appui/
-#rsconnect::setAccountInfo(name='astu221',token='BBD3DBBF58B9983E437EBA4050F6D08A',secret='9HqyBu78UJ+iz/ogSCRZppO87tfr24qtRBZ8Qzkm')
-#setwd('C:/Users/astut/Desktop/appui')
-#setwd('C:/Users/Alex/Desktop/appui')
-#rsconnect::deployApp()
-
 #script containing all global variables
 library(shiny)
 
 #vector containing title name
-title <- "Population Data Visualiser - Beta"
+title <- "Official Statistics Visualiser"
 
 #vector containing countries
 countrytext <- c("New Zealand","Cook Islands","Other")
